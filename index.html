@@ -1,2 +1,21 @@
-# Joyce-Lillian.github.io
-Project Website
+import React from 'react'
+import '../App.css'
+import { Button } from './Button'
+import './HeroSection.css'
+
+function HeroSection () {
+  return (
+    <div className='hero-container'>
+      {/* <h1>Lil Joyce</h1> */}
+      <div class='intro-info'>
+        <p class='lil-intro'>Hi! I'm Lil, a designer specializing in creative problem solving and user empathy to create unique and optimal results.</p>
+        <div class='circular--landscape'> <img src='images/headshot.jpg' alt='lil-img' /> </div>
+      </div>
+
+      {/* <button class='btn-email'>hello</button>
+      <button class='btn-email' href='mailto:lhj32@cornell.edu'>test</button> */}
+    </div>
+  )
+}
+
+export default HeroSection
